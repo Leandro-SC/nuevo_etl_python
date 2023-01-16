@@ -9,7 +9,7 @@ scope = ['https://www.googleapis.com/auth/spreadsheets',
 
 credenciales = ServiceAccountCredentials.from_json_keyfile_name("client_secret.json", scope)
 cliente = gspread.authorize(credenciales)
-sheets_key = "1C4fkxWrXavRs6Vx0l5ejbOeXPy3k-98ssQbufUDVCHw"
+sheets_key = "KEY_HOJA_SHEETS"
 
 def ConectarGoogleSheets():
 
